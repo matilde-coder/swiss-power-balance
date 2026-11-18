@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Data: regenerate with `make download load`
+data/raw/
+data/*.duckdb
+data/*.duckdb.wal
+*.tmp
+
+# Editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp

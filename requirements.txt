@@ -1,0 +1,6 @@
+duckdb>=1.1
+pandas>=2.2
+python-calamine>=0.2
+matplotlib>=3.8
+requests>=2.31
+pytest>=8.0
